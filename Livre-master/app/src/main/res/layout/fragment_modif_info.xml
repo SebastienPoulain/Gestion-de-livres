@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JEREMY LAMPRON -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    tools:context=".Modif_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_prenom" />
+
+        <EditText
+            android:id="@+id/tbPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="75"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_nom" />
+
+        <EditText
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="75" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCourriel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_courriel" />
+
+        <EditText
+            android:id="@+id/tbCourriel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:maxLength="75" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCellulaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_cellulaire" />
+
+        <EditText
+            android:id="@+id/tbCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:maxLength="14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMdpOld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_amdp" />
+
+        <EditText
+            android:id="@+id/tbMdpOld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLength="25" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/colorAccent"
+            android:text="@string/info_save"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btAnnuler1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Annuler" />
+    </LinearLayout>
+</LinearLayout>

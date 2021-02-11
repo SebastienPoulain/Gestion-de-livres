@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Livres"
+        android:name="android:actionMenuTextColor">
+        <menu>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_search"
+            android:title="Recherche de livres" />
+
+        <item
+            android:id="@+id/nav_gestion_livres"
+            android:icon="@drawable/livre"
+            android:title="Gestion des livres"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_reservation_livres"
+            android:icon="@drawable/reservation"
+            android:title="Réservation de livres"
+            android:visible="false" />
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Compte"
+        android:name="android:actionMenuTextColor">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Connexion/Inscription" />
+
+                <item
+                    android:id="@+id/nav_profil"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Profil"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/nav_propos"
+                    android:icon="@drawable/ic_info"
+                    android:title="À propos" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Déconnexion"
+                    android:visible="false" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

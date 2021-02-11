@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JEREMY LAMPRON -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:fontFamily="@font/kite_one"
+            android:gravity="center"
+            android:text="AGECTR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@color/blanc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.85"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_lbCourriel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="Adresse courriel"
+            android:textColor="@color/blanc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/blanc"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="255"
+            android:textColor="@color/blanc"
+            android:textColorHint="@color/blanc"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.85"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_lbMotdepasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="Mot de passe"
+            android:textColor="@color/blanc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_tbMotdepasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:autofillHints="AUTOFILL_HINT_PASSWORD"
+            android:backgroundTint="@color/blanc"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLength="255"
+            android:textColor="@color/blanc"
+            android:textColorHint="@color/blanc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btModif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/blanc"
+            android:gravity="center|center_vertical"
+            android:text="Connexion"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCreerCompte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/login_createaccount"
+            android:textColor="@color/blanc" />
+
+        <TextView
+            android:id="@+id/tvforgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Mot de passe oublié ?"
+            android:textColor="@color/blanc" />
+    </LinearLayout>
+
+</LinearLayout>

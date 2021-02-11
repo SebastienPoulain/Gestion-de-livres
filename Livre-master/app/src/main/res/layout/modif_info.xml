@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tbPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="62sp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Prénom"
+        android:inputType="textPersonName|text"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/txttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/tbCourriel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="Adresse courriel"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/tbCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:hint="No. Cellulaire"
+        android:inputType="phone"
+        android:maxLength="14"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        />
+
+    <EditText
+        android:id="@+id/tbMdpOld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Mot de passe actuel"
+        android:inputType="textWebPassword"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Enregistrer les informations" />
+
+</LinearLayout>

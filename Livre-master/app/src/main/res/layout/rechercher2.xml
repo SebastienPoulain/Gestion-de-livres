@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/etTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="62sp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_title"
+        android:drawablePadding="10dp"
+        android:hint="Titre"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etAuteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/auteur"
+        android:drawablePadding="10dp"
+        android:hint="Auteur"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/etEditeur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_book"
+        android:drawablePadding="10dp"
+        android:hint="Éditeur"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etEdition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_book"
+        android:drawablePadding="10dp"
+        android:hint="Édition"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/barcode"
+        android:drawablePadding="10dp"
+        android:hint="Code-Barres"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/blanc"
+        android:textColorHighlight="@color/blanc"
+        android:textColorHint="@color/blanc" />
+
+    <Button
+        android:id="@+id/btnRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Rechercher" />
+
+</LinearLayout>

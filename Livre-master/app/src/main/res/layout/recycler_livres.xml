@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayoutid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8sp"
+    android:background="@drawable/shapelogin"
+    android:elevation="4dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp">
+
+
+    <ImageView
+        android:id="@+id/recyclerItem_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="0.6"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TableLayout
+        android:id="@+id/recyclerItem_table1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="0.4"
+        android:background="@color/blanc"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_Titre"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanc">
+
+            <TextView
+                android:id="@+id/tv_Auteur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/blanc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/colorAccent" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanc">
+
+            <TextView
+                android:id="@+id/tv_Editeur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/blanc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanc">
+
+            <TextView
+                android:id="@+id/tv_Edition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/blanc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/colorAccent" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

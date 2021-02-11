@@ -1,0 +1,29 @@
+﻿colonne VALIDE
+
+0= invalide
+1= valide
+2= valide notification
+3= donné
+4= ajoute
+5= modifier prix
+6=suprrimer 
+
+
+
+colonne RESERVER
+
+0= non RESERVER
+id de l'utilisateur= RESERVER
+-2=reservaton annuler ;
+-3=reservation prête
+
+
+
+
+TRUC A FAIRE
+recherche concession --> seulement ceux qui ont au moins 1 concession
+
+
+
+
+
